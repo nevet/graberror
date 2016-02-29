@@ -64,3 +64,6 @@ func errorFunction() error {
 
 ## Example
 Please refer to `graberror/example`.
+
+## License
+[Apache License 2.0](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
