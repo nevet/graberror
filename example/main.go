@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/nevet/example/errpkg"
 	"github.com/nevet/graberror"
+	"github.com/nevet/graberror/example/errpkg"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	}
 
 	// a graberror handling paradigm
-	err := errpkg.ErrorCustomHandlerDemo()
+	err = errpkg.ErrorCustomHandlerDemo()
 	if err != nil {
 		if ge, ok := err.(graberror.GrabError); ok {
 			// handle the error using a way that's appropriate to the AUTHOR of the API
